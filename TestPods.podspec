@@ -79,9 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/MillerJiang538/TestPods.git", :tag => "#{spec.version}" }
-  spec.source       = { :git => "http://github.com/MillerJiang538/TestPods.git", :tag => "#{1.0.0}" }
-  spec.source       = { :git => "http://github.com/MillerJiang538/TestPods.git", :commit => "8e70cfe4db898963fcfe5b78dabfa09fb3054190" }
+  spec.source       = { :git => "http://github.com/MillerJiang538/TestPods.git", :commit => "6b32979d4581a476f84be41e9724a86ac1dc5488" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
